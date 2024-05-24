@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="nav-menu">
+    <ul class="ul-menu">
+      <li class="text"> <img src="../icons/icon1.jpeg" width="50px" height="50px" style="margin-bottom: -25px;"> </li>
+      <li class="text"> <a href="index.html">Inicio</a> </li>
+      <li class="text container">
+        <a href="./html/staAna.html">Santa Ana Zegache</a>
+        <div class="despegable">
+          <a class="a2" href="./html/gastronomia.html">Gastronomía</a>
+          <a class="a2" href="./html/tradiciones.html">Tradiciones</a>
+          <a class="a2" href="./html/costumbres.html">Costumbres</a>
+        </div>
+      </li>
+      <li class="text"> <a href="./html/galeria.html">Galeria</a></li>
+      <li class="text"> <a href="./html/acercaDeMi.html">Acerca de mi</a></li>
+    </ul>
+  </nav>
+
+
+
+  <div class="divP">
+    <div class="divimg">
+      <img src="./imgs/img1.jpeg" class="img1">
+    </div>
+    <div>
+      <h1>Santa Ana zegache </h1>
+      <h2>Es una comunidad muy poco reconocida y quisiera contarles lo que hace maravillosa a mi comunidad, les
+        platicare
+        sobre su historia, gastronomía, costumbre y tradiciones que son los pilares fundamentales de esta comunidad
+      </h2>
+      <h1>
+        <p id="clock"></p>
+      </h1>
+      <script>
+        setInterval(function () {
+          document.getElementById("clock").innerHTML = new Date().toLocaleTimeString();
+        }, 1000);
+      </script>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
